@@ -1,0 +1,56 @@
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+    box-sizing: 0;
+    color: #ffff;
+}
+body{
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-gradiente-de-galaxia-colorida_23-2148967385.jpg?semt=ais_hybrid);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 30px;
+    background: rgb(20, 1, 41);
+    box-shadow: 0px 0px 10px rgb(0, 217, 255);
+}
+header h1{
+ font-size: 70px;
+ cursor: pointer;
+}
+
+header nav a{
+    justify-content: space-around;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#conviteInicio p{
+font-size: 20px;
+font-family: sans-serif;
+
+}
+
+#conviteMeio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#conviteFim{
+    font-size: 40px;
+
+}
+
+#conviteFim p{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgb(0, 217, 255);
+}
